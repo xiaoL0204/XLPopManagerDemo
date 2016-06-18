@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2FB5ECC1D154FA100867D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5ECB1D154FA100867D14 /* main.m */; };
+		F2FB5ECF1D154FA100867D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5ECE1D154FA100867D14 /* AppDelegate.m */; };
+		F2FB5ED21D154FA100867D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5ED11D154FA100867D14 /* ViewController.m */; };
+		F2FB5ED51D154FA100867D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB5ED31D154FA100867D14 /* Main.storyboard */; };
+		F2FB5ED71D154FA200867D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FB5ED61D154FA200867D14 /* Assets.xcassets */; };
+		F2FB5EDA1D154FA200867D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB5ED81D154FA200867D14 /* LaunchScreen.storyboard */; };
+		F2FB5EE51D154FA200867D14 /* XLPopManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5EE41D154FA200867D14 /* XLPopManagerDemoTests.m */; };
+		F2FB5EF01D154FA200867D14 /* XLPopManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5EEF1D154FA200867D14 /* XLPopManagerDemoUITests.m */; };
+		F2FB5F001D154FDF00867D14 /* XLPopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5EFF1D154FDF00867D14 /* XLPopManager.m */; };
+		F2FB5F031D15514600867D14 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5F021D15514600867D14 /* SecondViewController.m */; };
+		F2FB5F091D15522400867D14 /* XLRoomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5F081D15522400867D14 /* XLRoomPopView.m */; };
+		F2FB5F0C1D15523000867D14 /* XLCustomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5F0B1D15523000867D14 /* XLCustomModel.m */; };
+		F2FB5F0F1D1553E600867D14 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FB5F0E1D1553E600867D14 /* UIView+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2FB5EE11D154FA200867D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FB5EBF1D154FA100867D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FB5EC61D154FA100867D14;
+			remoteInfo = XLPopManagerDemo;
+		};
+		F2FB5EEC1D154FA200867D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2FB5EBF1D154FA100867D14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2FB5EC61D154FA100867D14;
+			remoteInfo = XLPopManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2FB5EC71D154FA100867D14 /* XLPopManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPopManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB5ECB1D154FA100867D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2FB5ECD1D154FA100867D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2FB5ECE1D154FA100867D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2FB5ED01D154FA100867D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2FB5ED11D154FA100867D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2FB5ED41D154FA100867D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2FB5ED61D154FA200867D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2FB5ED91D154FA200867D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2FB5EDB1D154FA200867D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB5EE01D154FA200867D14 /* XLPopManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB5EE41D154FA200867D14 /* XLPopManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopManagerDemoTests.m; sourceTree = "<group>"; };
+		F2FB5EE61D154FA200867D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB5EEB1D154FA200867D14 /* XLPopManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPopManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB5EEF1D154FA200867D14 /* XLPopManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLPopManagerDemoUITests.m; sourceTree = "<group>"; };
+		F2FB5EF11D154FA200867D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB5EFE1D154FDF00867D14 /* XLPopManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPopManager.h; sourceTree = "<group>"; };
+		F2FB5EFF1D154FDF00867D14 /* XLPopManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPopManager.m; sourceTree = "<group>"; };
+		F2FB5F011D15514600867D14 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F2FB5F021D15514600867D14 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F2FB5F071D15522400867D14 /* XLRoomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRoomPopView.h; sourceTree = "<group>"; };
+		F2FB5F081D15522400867D14 /* XLRoomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRoomPopView.m; sourceTree = "<group>"; };
+		F2FB5F0A1D15523000867D14 /* XLCustomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCustomModel.h; sourceTree = "<group>"; };
+		F2FB5F0B1D15523000867D14 /* XLCustomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCustomModel.m; sourceTree = "<group>"; };
+		F2FB5F0D1D1553E600867D14 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F2FB5F0E1D1553E600867D14 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2FB5EC41D154FA100867D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EDD1D154FA200867D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EE81D154FA200867D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2FB5EBE1D154FA100867D14 = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EC91D154FA100867D14 /* XLPopManagerDemo */,
+				F2FB5EE31D154FA200867D14 /* XLPopManagerDemoTests */,
+				F2FB5EEE1D154FA200867D14 /* XLPopManagerDemoUITests */,
+				F2FB5EC81D154FA100867D14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FB5EC81D154FA100867D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EC71D154FA100867D14 /* XLPopManagerDemo.app */,
+				F2FB5EE01D154FA200867D14 /* XLPopManagerDemoTests.xctest */,
+				F2FB5EEB1D154FA200867D14 /* XLPopManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2FB5EC91D154FA100867D14 /* XLPopManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EFD1D154FD000867D14 /* PopCore */,
+				F2FB5ECD1D154FA100867D14 /* AppDelegate.h */,
+				F2FB5ECE1D154FA100867D14 /* AppDelegate.m */,
+				F2FB5ED01D154FA100867D14 /* ViewController.h */,
+				F2FB5ED11D154FA100867D14 /* ViewController.m */,
+				F2FB5F011D15514600867D14 /* SecondViewController.h */,
+				F2FB5F021D15514600867D14 /* SecondViewController.m */,
+				F2FB5F071D15522400867D14 /* XLRoomPopView.h */,
+				F2FB5F081D15522400867D14 /* XLRoomPopView.m */,
+				F2FB5F0A1D15523000867D14 /* XLCustomModel.h */,
+				F2FB5F0B1D15523000867D14 /* XLCustomModel.m */,
+				F2FB5ED31D154FA100867D14 /* Main.storyboard */,
+				F2FB5ED61D154FA200867D14 /* Assets.xcassets */,
+				F2FB5ED81D154FA200867D14 /* LaunchScreen.storyboard */,
+				F2FB5EDB1D154FA200867D14 /* Info.plist */,
+				F2FB5ECA1D154FA100867D14 /* Supporting Files */,
+			);
+			path = XLPopManagerDemo;
+			sourceTree = "<group>";
+		};
+		F2FB5ECA1D154FA100867D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5ECB1D154FA100867D14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2FB5EE31D154FA200867D14 /* XLPopManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EE41D154FA200867D14 /* XLPopManagerDemoTests.m */,
+				F2FB5EE61D154FA200867D14 /* Info.plist */,
+			);
+			path = XLPopManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		F2FB5EEE1D154FA200867D14 /* XLPopManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EEF1D154FA200867D14 /* XLPopManagerDemoUITests.m */,
+				F2FB5EF11D154FA200867D14 /* Info.plist */,
+			);
+			path = XLPopManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		F2FB5EFD1D154FD000867D14 /* PopCore */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB5EFE1D154FDF00867D14 /* XLPopManager.h */,
+				F2FB5EFF1D154FDF00867D14 /* XLPopManager.m */,
+				F2FB5F0D1D1553E600867D14 /* UIView+Category.h */,
+				F2FB5F0E1D1553E600867D14 /* UIView+Category.m */,
+			);
+			path = PopCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2FB5EC61D154FA100867D14 /* XLPopManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB5EF41D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemo" */;
+			buildPhases = (
+				F2FB5EC31D154FA100867D14 /* Sources */,
+				F2FB5EC41D154FA100867D14 /* Frameworks */,
+				F2FB5EC51D154FA100867D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPopManagerDemo;
+			productName = XLPopManagerDemo;
+			productReference = F2FB5EC71D154FA100867D14 /* XLPopManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2FB5EDF1D154FA200867D14 /* XLPopManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB5EF71D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemoTests" */;
+			buildPhases = (
+				F2FB5EDC1D154FA200867D14 /* Sources */,
+				F2FB5EDD1D154FA200867D14 /* Frameworks */,
+				F2FB5EDE1D154FA200867D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FB5EE21D154FA200867D14 /* PBXTargetDependency */,
+			);
+			name = XLPopManagerDemoTests;
+			productName = XLPopManagerDemoTests;
+			productReference = F2FB5EE01D154FA200867D14 /* XLPopManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2FB5EEA1D154FA200867D14 /* XLPopManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2FB5EFA1D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemoUITests" */;
+			buildPhases = (
+				F2FB5EE71D154FA200867D14 /* Sources */,
+				F2FB5EE81D154FA200867D14 /* Frameworks */,
+				F2FB5EE91D154FA200867D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2FB5EED1D154FA200867D14 /* PBXTargetDependency */,
+			);
+			name = XLPopManagerDemoUITests;
+			productName = XLPopManagerDemoUITests;
+			productReference = F2FB5EEB1D154FA200867D14 /* XLPopManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2FB5EBF1D154FA100867D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaolin;
+				TargetAttributes = {
+					F2FB5EC61D154FA100867D14 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F2FB5EDF1D154FA200867D14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2FB5EC61D154FA100867D14;
+					};
+					F2FB5EEA1D154FA200867D14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2FB5EC61D154FA100867D14;
+					};
+				};
+			};
+			buildConfigurationList = F2FB5EC21D154FA100867D14 /* Build configuration list for PBXProject "XLPopManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2FB5EBE1D154FA100867D14;
+			productRefGroup = F2FB5EC81D154FA100867D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2FB5EC61D154FA100867D14 /* XLPopManagerDemo */,
+				F2FB5EDF1D154FA200867D14 /* XLPopManagerDemoTests */,
+				F2FB5EEA1D154FA200867D14 /* XLPopManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2FB5EC51D154FA100867D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB5EDA1D154FA200867D14 /* LaunchScreen.storyboard in Resources */,
+				F2FB5ED71D154FA200867D14 /* Assets.xcassets in Resources */,
+				F2FB5ED51D154FA100867D14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EDE1D154FA200867D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EE91D154FA200867D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2FB5EC31D154FA100867D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB5F031D15514600867D14 /* SecondViewController.m in Sources */,
+				F2FB5ED21D154FA100867D14 /* ViewController.m in Sources */,
+				F2FB5F0C1D15523000867D14 /* XLCustomModel.m in Sources */,
+				F2FB5ECF1D154FA100867D14 /* AppDelegate.m in Sources */,
+				F2FB5F091D15522400867D14 /* XLRoomPopView.m in Sources */,
+				F2FB5ECC1D154FA100867D14 /* main.m in Sources */,
+				F2FB5F0F1D1553E600867D14 /* UIView+Category.m in Sources */,
+				F2FB5F001D154FDF00867D14 /* XLPopManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EDC1D154FA200867D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB5EE51D154FA200867D14 /* XLPopManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FB5EE71D154FA200867D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FB5EF01D154FA200867D14 /* XLPopManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2FB5EE21D154FA200867D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FB5EC61D154FA100867D14 /* XLPopManagerDemo */;
+			targetProxy = F2FB5EE11D154FA200867D14 /* PBXContainerItemProxy */;
+		};
+		F2FB5EED1D154FA200867D14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2FB5EC61D154FA100867D14 /* XLPopManagerDemo */;
+			targetProxy = F2FB5EEC1D154FA200867D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2FB5ED31D154FA100867D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB5ED41D154FA100867D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2FB5ED81D154FA200867D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2FB5ED91D154FA200867D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2FB5EF21D154FA200867D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2FB5EF31D154FA200867D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2FB5EF51D154FA200867D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLPopManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2FB5EF61D154FA200867D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLPopManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2FB5EF81D154FA200867D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLPopManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopManagerDemo.app/XLPopManagerDemo";
+			};
+			name = Debug;
+		};
+		F2FB5EF91D154FA200867D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLPopManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLPopManagerDemo.app/XLPopManagerDemo";
+			};
+			name = Release;
+		};
+		F2FB5EFB1D154FA200867D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLPopManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPopManagerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F2FB5EFC1D154FA200867D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLPopManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.XLPopManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLPopManagerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2FB5EC21D154FA100867D14 /* Build configuration list for PBXProject "XLPopManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB5EF21D154FA200867D14 /* Debug */,
+				F2FB5EF31D154FA200867D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2FB5EF41D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB5EF51D154FA200867D14 /* Debug */,
+				F2FB5EF61D154FA200867D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2FB5EF71D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB5EF81D154FA200867D14 /* Debug */,
+				F2FB5EF91D154FA200867D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2FB5EFA1D154FA200867D14 /* Build configuration list for PBXNativeTarget "XLPopManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2FB5EFB1D154FA200867D14 /* Debug */,
+				F2FB5EFC1D154FA200867D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2FB5EBF1D154FA100867D14 /* Project object */;
+}
